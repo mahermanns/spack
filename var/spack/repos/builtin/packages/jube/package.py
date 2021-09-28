@@ -12,8 +12,9 @@ class Jube(PythonPackage):
     computer systems and evaluate the results."""
 
     homepage = "https://www.fz-juelich.de/jsc/jube/"
-    url      = "https://apps.fz-juelich.de/jsc/jube/jube2/download.php?version=2.2.2"
+    url      = "https://apps.fz-juelich.de/jsc/jube/jube2/download.php?version=2.4.1"
 
+    version('2.4.1', sha256='d5d4a33fd339c7cd721a2836998605b9e492455c7bf755c64c7fd45e07be9016', extension='tar.gz')
     version('2.4.0', sha256='87c02555f3d1a8ecaff139cf8e7a7167cabd1049c8cc77f1bd8f4484e210d524', extension='tar.gz')
     version('2.3.0', sha256='6051d45af2ff35031ccc460185fbfa61f7f36ea14f17a0d51a9e62cd7af3709a', extension="tar.gz")
     version('2.2.2', sha256='135bc03cf07c4624ef2cf581ba5ec52eb44ca1dac15cffb83637e86170980477', extension="tar.gz")
